@@ -4,13 +4,31 @@ LIvet projeto
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Este projeto obedece a um fluxo de design e diagrama de classes na Ferramenta Ummense
+Será obedecido a ordem de Design e já informado as solicitações de APIs: 
+Solicitações para Backend Livet
+Validar CPF
+Esqueci minha senha
+Armazenar dados de uma Transferencia
+Transferir por QRCode
+Transferir por Conta - Conta
+Gerar boleto de Saldo Deposito
+Listar Banco , para mostrar na Transferencia para escolha do destino
+Mostrar Saldo
+Abater Saldo
+Solicitar Saque
+Mostrar Extrato
+Listar contas mesmo CPF/CNPJ
+Buscar determinada Transferencia
+Transferir por CPF
+Transferir por QRCode
+Confirmar compra
+--> Terá que para isso verificar Saldo Antes;
+--> Abater Saldo quando positivo 
+--> Informar Insuficiencia quando  negativo
+Listar categorias das Lojas Participantes ( Teremos que pensar como Estas lojas entrarão na plataforma pois não vi telas de cadastro)
+Envio de MSG pelo App
+Listar indicações por: 
+-- CPF
+-- Nivel
+-- Data
