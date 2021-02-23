@@ -1,5 +1,5 @@
-name: livet_app
-description: LIvet projeto
+name: flutter_app2
+description: Apos Bug do Autocomplete
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -28,10 +28,23 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
+  http: ^0.12.2
+  webview_flutter: 1.0.0
+  qr_flutter: ^3.1.0
+  flutter_barcode_scanner: 1.0.0
+  flutter_launcher_icons: ^0.8.1
+
+
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "img/icon/icon.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -45,9 +58,49 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    #   - images/a_dot_burr.jpeg
+    #   - images/a_dot_ham.jpeg
+    - img/abertura01.gif
+    - img/balde.gif
+    - img/fundo_login.png
+    - img/logo_livetpay.png
+    - img/fundo_verde.png
+    - img/icones/icon_explore.png
+    - img/icones/icon_home.png
+    - img/icones/icon_plus.png
+    - img/icones/icon_voltar.png
+    - img/icones/back-icon.png
+    - img/icones/boleto-icon.png
+    - img/icones/ted-icon.png
+    - img/qr_exemplo.png
+    - img/porquinho.gif
+    - img/menina_qrcode.gif
+    - img/icones/icon_download.png
+    - img/boleto_gerado.gif
+    - img/perfil.png
+    - img/icones/icon_dna.png
+    - img/icones/chip-icon.png
+    - img/icones/transfer-icon.png
+    - img/icones/qrcode-icon.png
+    - img/icones/share-icon.png
+    - img/animacoes/bolhas.gif
+    - img/cash-icon.png
+    - img/icones/bank-icon.png
+    - img/icones/arrowright-icon.png
+    - img/icones/qrcode_verde.png
+    - img/animacoes/realizartransf.gif
+    - img/clientes/clt001.png
+    - img/clientes/clt002.png
+    - img/qrcapturar.jpg
+    - img/qrcodegerado.png
+    - img/icones/bank-icon2.png
+    - img/icones/id-icon.png
+    - img/icones/usercheck-icon.png
+    - img/please-wait2.gif
+    - img/sucesso.gif
+    - img/fundo_perfil.jpg
+    - img/icon/icon.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
